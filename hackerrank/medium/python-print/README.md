@@ -1,4 +1,4 @@
-# Write a function
+# Print Function
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -38,20 +38,13 @@ Print the list of integers from $1$ through $n$ as a string, without spaces.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:56:23.753Z  
+**Submitted:** 2026-10-14T17:01:21.004Z  
 
 ```py
-def is_leap(year):
-    leap = False
-    if year % 4 == 0:
-        leap = True
-        if year % 100 == 0:
-            leap = False
-            if year % 400 == 0:
-                leap = True
-    return leap
-    
-
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(1,n+1):
+        print(i,end='')
 
 ```
 
