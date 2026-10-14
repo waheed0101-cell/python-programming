@@ -41,7 +41,7 @@ The function must return a Boolean value (True/False).  Output is handled by the
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T16:54:03.179Z  
+**Submitted:** 2026-10-14T16:55:34.711Z  
 
 ```py
 def is_leap(year):
